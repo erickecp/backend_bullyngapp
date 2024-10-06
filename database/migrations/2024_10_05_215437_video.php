@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('title');
             $table->text('description');
             $table->string('ruta');
-            $table->foreignId('video_id')->constrained('surveys')->onDelete('cascade');
+            $table->foreignId('survey_id')->constrained('surveys')->onDelete('cascade');
             $table->timestamps();
         });
         //

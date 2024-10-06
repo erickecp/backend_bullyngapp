@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\survey;
 use Illuminate\Http\Request;
 
 class surveyController extends Controller
@@ -9,11 +10,10 @@ class surveyController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
-    {
-        //
+    public function index(){
+        $surveys = Survey::all();
+        return response()->json( $surveys );
     }
-
     /**
      * Show the form for creating a new resource.
      */
@@ -33,9 +33,13 @@ class surveyController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show($id)
     {
-        //
+        $survey = Survey::with(['questions', 'videos'])->find($id);
+        if (!$survey) {
+            return response()->json(['message' => 'Survey not found'], 404);
+        }
+        return response()->json($survey);
     }
 
     /**

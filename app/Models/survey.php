@@ -8,4 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 class survey extends Model
 {
     use HasFactory;
+    protected $fillable = ['name', 'description'];
+
+    public function questions()
+    {
+        return $this->hasMany(question::class);
+    }
+    public function videos()
+    {
+        return $this->hasMany(video::class);
+    }
+
 }
