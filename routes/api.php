@@ -3,6 +3,7 @@
 use App\Http\Controllers\questionController;
 use App\Http\Controllers\surveyController;
 use App\Http\Controllers\videoController;
+use App\Http\Controllers\subsurveyController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -18,6 +19,13 @@ Route::prefix('surveys')->group(function () {
     Route::post('/', [SurveyController::class, 'store']);       // Crear una nueva encuesta
     Route::put('{survey}', [SurveyController::class, 'update']); // Actualizar una encuesta
     Route::delete('{survey}', [SurveyController::class, 'destroy']); // Eliminar una encuesta
+});
+Route::prefix('subsurveys')->group(function () {
+    Route::get('/', [subsurveyController::class, 'index']);        // Listar todas las encuestas
+    Route::get('{subsurvey}', [subsurveyController::class, 'show']);  // Ver una encuesta específica
+    Route::post('/', [subsurveyController::class, 'store']);       // Crear una nueva encuesta
+    Route::put('{subsurvey}', [subsurveyController::class, 'update']); // Actualizar una encuesta
+    Route::delete('{subsurvey}', [subsurveyController::class, 'destroy']); // Eliminar una encuesta
 });
 
 // Grupo de rutas para Videos

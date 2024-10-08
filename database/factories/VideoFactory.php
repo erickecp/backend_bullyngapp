@@ -18,7 +18,7 @@ class VideoFactory extends Factory
             'title' => $this->faker->sentence,
             'description' => $this->faker->paragraph,
             'ruta' => $this->faker->url, // Simulación de una ruta al video
-            'survey_id' => \App\Models\Survey::factory(), // Asociar con una encuesta
+            'subsurvey_id' => \App\Models\survey::factory(), // Asociar con una encuesta
         ];
     }
 }

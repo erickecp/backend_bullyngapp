@@ -14,7 +14,7 @@ class question extends Model
     ];
 
     public function survey(){
-        return $this->belongsTo(survey::class);
+        return $this->belongsTo(subsurveys::class);
     }
 
 }
