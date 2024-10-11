@@ -35,7 +35,7 @@ class surveyController extends Controller
      */
     public function show($id)
     {
-        $survey = Survey::with(['questions', 'videos'])->find($id);
+        $survey = Survey::with('videos', 'questions')->find($id);
         if (!$survey) {
             return response()->json(['message' => 'Survey not found'], 404);
         }

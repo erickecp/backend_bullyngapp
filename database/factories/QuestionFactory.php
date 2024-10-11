@@ -16,11 +16,12 @@ class QuestionFactory extends Factory
     {
         return [
             'question' => $this->faker->sentence,
-            'category' => $this->faker->word, // Simulación de categorías
+            'category' => $this->faker->randomElement(['multiple','opcion','video','escala']), // Simulación de categorías
+            'url' => $this->faker->randomElement([null, 'https://www.youtube.com/watch?v=cNqfpyb83uY']), // Simulación de categorías
             'answers' => $this->faker->randomElements([
-                'Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'
+                'Answer 1', 'Answer 2', 'Answer 3', 'Answer 4', 'Answer 5', 'Answer 6', 'Answer 7', 'Answer 8'
             ], 3), // Tres respuestas aleatorias
-            'subsurvey_id' => \App\Models\subsurveys::factory(), // Asociar con una encuesta
+            'survey_id' => \App\Models\survey::factory(), // Asociar con una encuesta
         ];
     }
 }

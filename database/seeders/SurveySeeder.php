@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\question;
-use App\Models\subsurveys;
+use App\Models\subsurvey;
 use App\Models\survey;
 use App\Models\video;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -18,13 +18,11 @@ class SurveySeeder extends Seeder
     {
         survey::factory(3)->create()->each(function ($survey) {
 
-            subsurveys::factory(2)->create(['survey_id' => $survey->id])->each(function ($subsurvey){
             // Asociar 1 o 2 videos por encuesta
-            video::factory(rand(1, 2))->create(['subsurvey_id' => $subsurvey->id]);
+            video::factory(rand(1, 2))->create(['survey_id' => $survey->id]);
 
             // Asociar entre 3 y 5 preguntas por encuesta
-            question::factory(rand(3, 5))->create(['subsurvey_id' => $subsurvey->id]);
-            });
+            question::factory(8)->create(['survey_id' => $survey->id]);
         });
     }
 }

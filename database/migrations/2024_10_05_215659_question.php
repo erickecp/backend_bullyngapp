@@ -15,8 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('question');
             $table->string('category');
+            $table->string('url')->nullable();;
             $table->json('answers');
-            $table->foreignId('subsurvey_id')->constrained('subsurveys')->onDelete('cascade');
+            $table->foreignId('survey_id')->constrained()->onDelete('cascade');
             $table->timestamps();
         } );
         //

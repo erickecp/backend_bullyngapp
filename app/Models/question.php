@@ -8,13 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class question extends Model
 {
     use HasFactory;
-    protected $fillable = ['question', 'answers','category','survey_id'];
+    protected $fillable = ['question', 'answers','url','category'];
     protected $casts = [
-        'answers' => 'array',
+        'answers' => 'array'
     ];
 
-    public function survey(){
-        return $this->belongsTo(subsurveys::class);
+    public function subsurvey(){
+        return $this->belongsTo(survey::class, );
     }
 
 }

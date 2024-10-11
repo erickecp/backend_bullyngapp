@@ -10,10 +10,15 @@ class survey extends Model
     use HasFactory;
     protected $fillable = ['name', 'description'];
 
-    public function subsurveys()
+    public function videos()
 
     {
-        return $this->hasMany(subsurveys::class);
+        return $this->hasMany(video::class);
+    }
+    public function questions()
+
+    {
+        return $this->hasMany(question::class);
     }
 
 

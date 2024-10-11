@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Subsurveys>
  */
-class SubsurveysFactory extends Factory
+class SubsurveyFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -19,7 +19,7 @@ class SubsurveysFactory extends Factory
         return [
 
             'title' => $this->faker->sentence,
-            'survey_id' => \App\Models\subsurveys::factory(),
+            'survey_id' => \App\Models\survey::factory(),
             //
         ];
     }
