@@ -4,6 +4,7 @@ use App\Http\Controllers\questionController;
 use App\Http\Controllers\surveyController;
 use App\Http\Controllers\videoController;
 use App\Http\Controllers\subsurveyController;
+use App\Http\Controllers\AuthController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -45,3 +46,33 @@ Route::prefix('questions')->group(function () {
     Route::put('{question}', [QuestionController::class, 'update']); // Actualizar una pregunta
     Route::delete('{question}', [QuestionController::class, 'destroy']); // Eliminar una pregunta
 });
+
+//Endpoint Admin
+Route::post('newAdmin',[AuthController::class, 'registerAdmin'] );
+Route::get('getAdmin/{id}',[AuthController::class, 'getAdminById']);
+Route::get('getAdmins',[AuthController::class, 'getAdmins']);
+Route::put('updateAdmin/{id}',[AuthController::class, 'editAdmin']);
+Route::delete('deleteAdmin/{id}',[AuthController::class, 'deleteAdmin']);
+
+Route::post('loginA', [AuthController::class, 'loginAdmin']);
+Route::post('logoutA', [AuthController::class, 'logoutAdmin']);
+
+//Endpoint School
+Route::post('newSchool',[AuthController::class, 'registerSchool']);
+Route::get('getSchool/{id}',[AuthController::class, 'getSchoolById']);
+Route::get('getSchools',[AuthController::class, 'getSchools']);
+Route::put('updateSchool/{id}',[AuthController::class, 'editSchool']);
+Route::delete('deleteSchool/{id}',[AuthController::class, 'deleteSchool']);
+
+Route::post('loginS', [AuthController::class, 'loginSchool']);
+Route::post('logoutS', [AuthController::class, 'logoutSchool']);
+
+//Enpoint User
+Route::post('newUser',[AuthController::class, 'registerUser']);
+Route::get('getUser/{id}',[AuthController::class, 'getUserById']);
+Route::get('getUsers',[AuthController::class, 'getUsers']);
+Route::put('updateUser/{id}',[AuthController::class, 'editUser']);
+Route::delete('deleteUser/{id}',[AuthController::class, 'deleteUser']);
+
+Route::post('loginU', [AuthController::class, 'loginUser']);
+Route::post('logoutU', [AuthController::class, 'logoutUser']);
