@@ -36,9 +36,17 @@ return [
     */
 
     'guards' => [
-        'web' => [
-            'driver' => 'session',
-            'provider' => 'users',
+        'admin' => [
+            'driver' => 'jwt',
+            'provider' => 'admins',
+        ],
+        'school' => [
+            'driver' => 'jwt',
+            'provider' => 'schools',
+        ],
+        'schoolUser' => [
+            'driver' => 'jwt',
+            'provider' => 'school_users',
         ],
     ],
 
@@ -60,10 +68,18 @@ return [
     */
 
     'providers' => [
-        'users' => [
-            'driver' => 'eloquent',
-            'model' => env('AUTH_MODEL', App\Models\User::class),
-        ],
+        'admins' => [
+        'driver' => 'eloquent',
+        'model' => App\Models\Admin::class,
+    ],
+    'schools' => [
+        'driver' => 'eloquent',
+        'model' => App\Models\School::class,
+    ],
+    'school_users' => [
+        'driver' => 'eloquent',
+        'model' => App\Models\SchoolUser::class,
+    ],
 
         // 'users' => [
         //     'driver' => 'database',
