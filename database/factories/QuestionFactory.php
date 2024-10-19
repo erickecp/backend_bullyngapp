@@ -16,6 +16,7 @@ class QuestionFactory extends Factory
     {
         return [
             'question' => $this->faker->sentence,
+            'question_2' => $this->faker->sentence,
             'category' => $this->faker->randomElement(['multiple','opcion','video','escala']), // Simulación de categorías
             'url' => $this->faker->randomElement([null, 'https://www.youtube.com/watch?v=cNqfpyb83uY']), // Simulación de categorías
             'answers' => $this->faker->randomElements([

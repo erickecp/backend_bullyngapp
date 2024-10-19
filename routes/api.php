@@ -20,13 +20,6 @@ Route::prefix('surveys')->group(function () {
     Route::put('{survey}', [SurveyController::class, 'update']); // Actualizar una encuesta
     Route::delete('{survey}', [SurveyController::class, 'destroy']); // Eliminar una encuesta
 });
-Route::prefix('subsurveys')->group(function () {
-    Route::get('/', [subsurveyController::class, 'index']);        // Listar todas las encuestas
-    Route::get('{subsurvey}', [subsurveyController::class, 'show']);  // Ver una encuesta específica
-    Route::post('/', [subsurveyController::class, 'store']);       // Crear una nueva encuesta
-    Route::put('{subsurvey}', [subsurveyController::class, 'update']); // Actualizar una encuesta
-    Route::delete('{subsurvey}', [subsurveyController::class, 'destroy']); // Eliminar una encuesta
-});
 
 // Grupo de rutas para Videos
 Route::prefix('videos')->group(function () {
