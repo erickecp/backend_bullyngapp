@@ -16,13 +16,31 @@ class SurveySeeder extends Seeder
      */
     public function run(): void
     {
-        survey::factory(3)->create()->each(function ($survey) {
+        // Crear 3 encuestas
+        survey::factory(2)->create()->each(function ($survey) {
 
             // Asociar 1 o 2 videos por encuesta
             video::factory(rand(1, 2))->create(['survey_id' => $survey->id]);
 
-            // Asociar entre 3 y 5 preguntas por encuesta
-            question::factory(8)->create(['survey_id' => $survey->id]);
+            // Cargar preguntas predefinidas desde el archivo JSON
+            $preguntas = json_decode(file_get_contents(database_path('data/preguntas.json')), true);
+
+            // Filtrar preguntas para el survey_id actual
+            $preguntasFiltradas = array_filter($preguntas, function ($pregunta) use ($survey) {
+                return $pregunta['survey_id'] === $survey->id;
+            });
+
+            // Crear preguntas en la base de datos usando los datos del archivo JSON
+            foreach ($preguntasFiltradas as $pregunta) {
+                Question::create([
+                    'question' => $pregunta['question'],
+                    'question_2' => $pregunta['question_2'],
+                    'category' => $pregunta['category'],
+                    'url' => $pregunta['url'],
+                    'answers' => $pregunta['answers'],
+                    'survey_id' => $pregunta['survey_id'],
+                ]);
+            }
         });
     }
 }

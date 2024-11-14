@@ -21,5 +21,15 @@ class survey extends Model
         return $this->hasMany(question::class);
     }
 
+    public function users()
+{
+    return $this->belongsToMany(User::class, 'survey_user')->withTimestamps();
+}
+
+public function surveyResponses()
+{
+    return $this->hasMany(survey_response::class);
+}
+
 
 }

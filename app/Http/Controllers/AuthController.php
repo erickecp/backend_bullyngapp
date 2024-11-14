@@ -7,11 +7,8 @@ use App\Models\school as School;
 use App\Models\schoolUser as User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 use Tymon\JWTAuth\Facades\JWTAuth;
-use Tymon\JWTAuth\Exceptions\JWTException;
 
 class AuthController extends Controller
 {
@@ -119,7 +116,7 @@ class AuthController extends Controller
         }
         $validator = Validator::make($request->all(), [
             'user_name' => 'sometimes|required|string|min:3|max:25',
-            'password' => 'sometimes|nullable|string|min:6', 
+            'password' => 'sometimes|nullable|string|min:6',
         ]);
         if ($validator->fails()) {
             return response()->json($validator->errors()->toJson(), 400);
@@ -133,7 +130,7 @@ class AuthController extends Controller
         $admin->update($data);
         return response($admin, 200);
     }
-    
+
     //Editar School
     public function editSchool(Request $request, $id){
         $school = School::find($id);

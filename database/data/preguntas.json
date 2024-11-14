@@ -1,0 +1,667 @@
+[
+    {
+        "question": "Video 1",
+        "question_2": null,
+        "category": "video",
+        "url": "./assets/videos/Cap1_p1.mp4",
+        "answers": ["No visto", "Visto"],
+        "survey_id": 1
+    },
+    {
+        "question": "1.-¿Podemos considerar acoso que saquen motes al compañero?",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Sí, siempre que pase algo así es acoso.", "Sería acoso si fuera habitual y siempre contra el mismo alumno.", "No, es una tontería entre compañeros."],
+        "survey_id": 1
+    },
+    {
+        "question": "2.- ¿Qué estilo de comunicación ha usado en esta escena Pedro?",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Asertivo", "Pasivo", "Agresivo"],
+        "survey_id": 1
+    },
+    {
+        "question": "3. ¿Cómo se puede sentir Pedro tras esta situación? (puedes elegir varias opciones).",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendido e inseguro.", "Dominante y enfadado", " Humillado y dolido.","Satisfecho y tranquilo.", "Contento y confiado."],
+        "survey_id": 1
+    },
+    {
+        "question": "4.¿Cómo se pueden sentir los compañeros que dan las collejas en esta situación? (puede elegir entre varias opciones)",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendidos e inseguros.", "Superiores y fuertes.", " Contentos y tranquilos.","Satisfechos y con Energía.", "Tristes y preocupados."],
+        "survey_id": 1
+    },
+    {
+        "question": "5.-¿Cómo se pueden sentir los compañeros que no pertenecen al grupo  y observan la situación? (puedes elegir varias opciones) . ",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Contentos y tranquilos.", "Asustados e inseguros.","Sorprendidos y preocupados.", "Tristes y compasivos."],
+        "survey_id": 1
+    },
+    {
+        "question": "6.-Hay integrantes del grupo de agresores que han decidido no dar collejas como sus compañeros. ¿Cómo se pueden sentir estos?(puedes elegir varias opciones)",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Superiores y fuertes.", "Contentos y tranquilos.","Asustados e inseguros (por si su inacción tiene consecuencias)", "Tristes y preocupados."],
+        "survey_id": 1
+    },
+    {
+        "question": "Ausencia de felicidad/ Nada feliz)",
+        "question_2": "Felicidad atope/extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 1
+    },
+    {
+        "question": "Ausencia de miedo/Ningún miedo",
+        "question_2": "Miedo a tope/extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 1
+    },
+    {
+        "question": "Ausencia de tristeza/nada de tristeza",
+        "question_2": "Tristeza máxima/A tope de tristeza",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 1
+    },
+    {
+        "question": "Ausencia de asco/Ningún asco",
+        "question_2": "Asco a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 1
+
+    },
+    {
+        "question": "Ausencia de enfado o rabia /Ningún enfado",
+        "question_2": "Enfado o enfado a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 1
+    },
+    {
+        "question": "Ausencia de indiferencia/nada",
+        "question_2": "Indiferencia a tope/ extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 1
+    },
+    {
+        "question": "Video 2",
+        "question_2": null,
+        "category": "video",
+        "url": "./assets/videos/Cap1_p2.mp4",
+        "answers": ["No visto", "Visto"],
+        "survey_id": 1
+    },
+    {
+        "question": "1.¿Podemos considerar acoso que saquen motes al compañero?",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Sí, siempre que pase algo así es acoso.", "Sería acoso si fuera habitual y siempre contra el mismo alumno.", "Sería acoso si fuera habitual y siempre contra el mismo alumno."],
+        "survey_id": 1
+    },
+    {
+        "question": "2.- ¿Qué estilo de comunicación ha usado en esta escena Pedro?",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Asertivo", "Pasivo", "Agresivo"],
+        "survey_id": 1
+    },
+    {
+        "question": "3. ¿Cómo se puede sentir Pedro tras esta situación? (puedes elegir varias opciones)",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Sorprendido e inseguro.", "Dominante y enfadado", " Humillado y dolido.","Satisfecho y tranquilo.", "Contento y confiado."],
+        "survey_id": 1
+    },
+    {
+        "question": "4.¿Cómo se pueden sentir los compañeros que dan las collejas en esta situación? (puede elegir entre varias opciones)",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendidos e inseguros.", "Superiores y fuertes.", " Contentos y tranquilos.","Satisfechos y con Energía.", "Tristes y preocupados."],
+        "survey_id": 1
+    },
+    {
+        "question": "5.-¿Cómo se pueden sentir los compañeros que no pertenecen al grupo  y observan la situación? (puedes elegir varias opciones) . ",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Contentos y tranquilos.", "Asustados e inseguros.","Sorprendidos y preocupados.", "Tristes y compasivos."],
+        "survey_id": 1
+    },
+    {
+        "question": "6.-Hay integrantes del grupo de agresores que han decidido no dar collejas como sus compañeros. ¿Cómo se pueden sentir estos?(puedes elegir varias opciones)",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Superiores y fuertes.", "Contentos y tranquilos.","Asustados e inseguros (por si su inacción tiene consecuencias)", "Tristes y preocupados."],
+        "survey_id": 1
+    },
+    {
+        "question": "Ausencia de felicidad/ Nada feliz)",
+        "question_2": "Felicidad atope/extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 1
+    },
+    {
+        "question": "Ausencia de miedo/Ningún miedo",
+        "question_2": "Miedo a tope/extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 1
+    },
+    {
+        "question": "Ausencia de tristeza/nada de tristeza",
+        "question_2": "Tristeza máxima/A tope de tristeza",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 1
+    },
+    {
+        "question": "Ausencia de asco/Ningún asco",
+        "question_2": "Asco a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 1
+    },
+    {
+        "question": "Ausencia de enfado o rabia /Ningún enfado",
+        "question_2": "Enfado o enfado a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 1
+    },
+    {
+        "question": "Ausencia de indiferencia/nada",
+        "question_2": "Indiferencia a tope/ extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 1
+    },
+    {
+        "question": "Video 3",
+        "question_2": null,
+        "category": "video",
+        "url": "./assets/videos/Cap1_p3.mp4",
+        "answers": ["No visto", "Visto"],
+        "survey_id": 1
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "question": "Video 1",
+        "question_2": null,
+        "category": "video",
+        "url": "./assets/videos/Cap2_p1.mp4",
+        "answers": ["No visto", "Visto"],
+        "survey_id": 2
+    },
+    {
+        "question": "1.-¿Podemos considerar acoso que saquen motes al compañero?",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Sí, siempre que pase algo así es acoso.", "Sería acoso si fuera habitual y siempre contra el mismo alumno.", "No, es una tontería entre compañeros."],
+        "survey_id": 2
+    },
+    {
+        "question": "2.- ¿Qué podría haber hecho Pedro para que esa situación le afectase menos o no le afectara?",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Hablar con la familia o con un/a buen/a amigo/a", "Reaccionar agresivamente, insultando", "No hacer nada"],
+        "survey_id": 2
+    },
+    {
+        "question": "3.- ¿Qué estilo de comunicación ha usado en esta escena Pedro?",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Asertivo", "Pasivo", "Agresivo"],
+        "survey_id": 2
+    },
+    {
+        "question": "4. ¿Cómo se puede sentir Pedro tras esta situación? (puedes elegir varias opciones).",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendido e inseguro.", "Dominante y enfadado", " Humillado y dolido.","Satisfecho y tranquilo. ", "Contento y confiado."],
+        "survey_id": 2
+    },
+    {
+        "question": "5.¿Cómo se pueden sentir los compañeros que dan las collejas en esta situación? (puede elegir entre varias opciones)",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendidos e inseguros.", "Superiores y fuertes.", " Contentos y tranquilos.","Satisfechos y con Energía.", "Tristes y preocupados."],
+        "survey_id": 2
+    },
+    {
+        "question": "6.-¿Cómo se pueden sentir los compañeros que no pertenecen al grupo  y observan la situación? (puedes elegir varias opciones) . ",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Contentos y tranquilos.", "Asustados e inseguros.","Sorprendidos y preocupados.", "Tristes y compasivos."],
+        "survey_id": 2
+    },
+    {
+        "question": "7.-Hay integrantes del grupo de agresores que han decidido no dar collejas como sus compañeros. ¿Cómo se pueden sentir estos?(puedes elegir varias opciones .  ",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Superiores y fuertes.", "Contentos y tranquilos.","Asustados e inseguros (por si su inacción tiene consecuencias)", "Tristes y preocupados."],
+        "survey_id": 2
+    },
+    {
+        "question": "Ausencia de felicidad/ Nada feliz)",
+        "question_2": "Felicidad atope/extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 2
+    },
+    {
+        "question": "Ausencia de miedo/Ningún miedo",
+        "question_2": "Miedo a tope/extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 2
+    },
+    {
+        "question": "Ausencia de tristeza/nada de tristeza",
+        "question_2": "Tristeza máxima/A tope de tristeza",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 2
+    },
+    {
+        "question": "Ausencia de asco/Ningún asco",
+        "question_2": "Asco a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 2
+
+    },
+    {
+        "question": "Ausencia de enfado o rabia /Ningún enfado",
+        "question_2": "Enfado o enfado a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 2
+    },
+    {
+        "question": "Ausencia de indiferencia/nada",
+        "question_2": "Indiferencia a tope/ extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 2
+    },
+    {
+        "question": "Video 2",
+        "question_2": null,
+        "category": "video",
+        "url": "./assets/videos/Cap2_p2.mp4",
+        "answers": ["No visto", "Visto"],
+        "survey_id": 2
+    },
+    {
+        "question": "1. ¿Cómo se puede sentir Pedro tras esta situación? (puedes elegir varias opciones).",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendido e inseguro.", "Dominante y enfadado", " Humillado y dolido.","Satisfecho y tranquilo. ", "Contento y confiado."],
+        "survey_id": 2
+    },
+    {
+        "question": "2.¿Cómo se pueden sentir los compañeros que dan las collejas en esta situación? (puede elegir entre varias opciones)",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendidos e inseguros.", "Superiores y fuertes.", " Contentos y tranquilos.","Satisfechos y con Energía.", "Tristes y preocupados."],
+        "survey_id": 2
+    },
+    {
+        "question": "3.-¿Cómo se pueden sentir los compañeros que no pertenecen al grupo  y observan la situación? (puedes elegir varias opciones) . ",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Contentos y tranquilos.", "Asustados e inseguros.","Sorprendidos y preocupados.", "Tristes y compasivos."],
+        "survey_id": 2
+    },
+    {
+        "question": "4.-Hay integrantes del grupo de agresores que han decidido no dar collejas como sus compañeros. ¿Cómo se pueden sentir estos?(puedes elegir varias opciones .  ",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Superiores y fuertes.", "Contentos y tranquilos.","Asustados e inseguros (por si su inacción tiene consecuencias)", "Tristes y preocupados."],
+        "survey_id": 2
+    },
+    {
+        "question": "Ausencia de felicidad/ Nada feliz)",
+        "question_2": "Felicidad atope/extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 2
+    },
+    {
+        "question": "Ausencia de miedo/Ningún miedo",
+        "question_2": "Miedo a tope/extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 2
+    },
+    {
+        "question": "Ausencia de tristeza/nada de tristeza",
+        "question_2": "Tristeza máxima/A tope de tristeza",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 2
+    },
+    {
+        "question": "Ausencia de asco/Ningún asco",
+        "question_2": "Asco a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 2
+    },
+    {
+        "question": "Ausencia de enfado o rabia /Ningún enfado",
+        "question_2": "Enfado o enfado a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 2
+    },
+    {
+        "question": "Ausencia de indiferencia/nada",
+        "question_2": "Indiferencia a tope/ extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 2
+    },
+    {
+        "question": "Video 3",
+        "question_2": null,
+        "category": "video",
+        "url": "./assets/videos/Cap2_p3.mp4",
+        "answers": ["No visto", "Visto"],
+        "survey_id": 2
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "question": "Video 1",
+        "question_2": null,
+        "category": "video",
+        "url": "./assets/videos/Cap3_p1.mp4",
+        "answers": ["No visto", "Visto"],
+        "survey_id": 3
+    },
+    {
+        "question": "1 ¿Podemos considerar acoso lo que hacen los compañeros en el pasillo?",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Sí, siempre que pase algo así es acoso.", "Sería acoso si fuera habitual y siempre contra el mismo alumno.", "No, es una tontería entre compañeros."],
+        "survey_id": 3
+    },
+    {
+        "question": "2.- ¿Qué estilo de comunicación ha usado en esta escena Pedro?",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Asertivo", "Pasivo", "Agresivo"],
+        "survey_id": 3
+    },
+    {
+        "question": "3. ¿Cómo se puede sentir Pedro tras esta situación? (puedes elegir varias opciones).",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendido e inseguro.", "Dominante y enfadado", " Humillado y dolido.","Satisfecho y tranquilo. ", "Contento y confiado."],
+        "survey_id": 3
+    },
+    {
+        "question": "4.¿Cómo se pueden sentir los compañeros que dan las collejas en esta situación? (puede elegir entre varias opciones)",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendidos e inseguros.", "Superiores y fuertes.", " Contentos y tranquilos.","Satisfechos y con Energía.", "Tristes y preocupados."],
+        "survey_id": 3
+    },
+    {
+        "question": "5.¿Cómo se pueden sentir los compañeros que dan las collejas en esta situación? (puede elegir entre varias opciones)",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Contentos y tranquilos.", "Asustados e inseguros.","Sorprendidos y preocupados.", "Tristes y compasivos."],
+        "survey_id": 3
+    },
+
+    {
+        "question": "6.-Hay integrantes del grupo de agresores que han decidido no dar collejas como sus compañeros. ¿Cómo se pueden sentir estos?(puedes elegir varias opciones . ",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Superiores y fuertes.", "Contentos y tranquilos.","Asustados e inseguros (por si su inacción tiene consecuencias)", "Tristes y preocupados."],
+        "survey_id": 3
+    },
+    {
+        "question": "Ausencia de felicidad/ Nada feliz)",
+        "question_2": "Felicidad atope/extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 3
+    },
+    {
+        "question": "Ausencia de miedo/Ningún miedo",
+        "question_2": "Miedo a tope/extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 3
+    },
+    {
+        "question": "Ausencia de tristeza/nada de tristeza",
+        "question_2": "Tristeza máxima/A tope de tristeza",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 3
+    },
+    {
+        "question": "Ausencia de asco/Ningún asco",
+        "question_2": "Asco a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 3
+
+    },
+    {
+        "question": "Ausencia de enfado o rabia /Ningún enfado",
+        "question_2": "Enfado o enfado a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 3
+    },
+    {
+        "question": "Ausencia de indiferencia/nada",
+        "question_2": "Indiferencia a tope/ extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 3
+    },
+    {
+        "question": "Video 2",
+        "question_2": null,
+        "category": "video",
+        "url": "./assets/videos/Cap3_p2.mp4",
+        "answers": ["No visto", "Visto"],
+        "survey_id": 3
+    },
+    {
+        "question": "1.- ¿Qué estilo de comunicación ha usado en esta escena Pedro?",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Asertivo", "Pasivo", "Agresivo"],
+        "survey_id": 3
+    },
+    {
+        "question": "2. ¿Cómo se puede sentir Pedro tras esta situación? (puedes elegir varias opciones).",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendido e inseguro.", "Dominante y enfadado", " Humillado y dolido.","Satisfecho y tranquilo.", "Contento y confiado."],
+        "survey_id": 1
+    },
+    {
+        "question": "3.¿Cómo se pueden sentir los compañeros que dan las collejas en esta situación? (puede elegir entre varias opciones)",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Contentos y tranquilos.", "Asustados e inseguros.","Sorprendidos y preocupados.", "Tristes y compasivos."],
+        "survey_id": 3
+    },
+    {
+        "question": "4.-¿Cómo se pueden sentir los compañeros que no pertenecen al grupo  y observan la situación? (puedes elegir varias opciones) . ",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Contentos y tranquilos.", "Asustados e inseguros.","Sorprendidos y preocupados.", "Tristes y compasivos."],
+        "survey_id": 3
+    },
+    {
+        "question": "5.-Hay integrantes del grupo de agresores que han decidido no dar collejas como sus compañeros. ¿Cómo se pueden sentir estos?(puedes elegir varias opciones . ",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Superiores y fuertes.", "Contentos y tranquilos.","Asustados e inseguros (por si su inacción tiene consecuencias)", "Tristes y preocupados."],
+        "survey_id": 3
+    },
+    {
+        "question": "Ausencia de felicidad/ Nada feliz)",
+        "question_2": "Felicidad atope/extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 3
+    },
+    {
+        "question": "Ausencia de miedo/Ningún miedo",
+        "question_2": "Miedo a tope/extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 3
+    },
+    {
+        "question": "Ausencia de tristeza/nada de tristeza",
+        "question_2": "Tristeza máxima/A tope de tristeza",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 3
+    },
+    {
+        "question": "Ausencia de asco/Ningún asco",
+        "question_2": "Asco a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 3
+
+    },
+    {
+        "question": "Ausencia de enfado o rabia /Ningún enfado",
+        "question_2": "Enfado o enfado a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 3
+    },
+    {
+        "question": "Ausencia de indiferencia/nada",
+        "question_2": "Indiferencia a tope/ extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 3
+    },
+    {
+        "question": "Video 3",
+        "question_2": null,
+        "category": "video",
+        "url": "./assets/videos/Cap3_p3.mp4",
+        "answers": ["No visto", "Visto"],
+        "survey_id": 3
+    }
+]

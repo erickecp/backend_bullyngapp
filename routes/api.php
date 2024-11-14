@@ -5,6 +5,8 @@ use App\Http\Controllers\surveyController;
 use App\Http\Controllers\videoController;
 use App\Http\Controllers\subsurveyController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\surveyResponseController;
+use App\Http\Controllers\SurveyUserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -38,6 +40,20 @@ Route::prefix('questions')->group(function () {
     Route::post('/', [QuestionController::class, 'store']);       // Crear una nueva pregunta
     Route::put('{question}', [QuestionController::class, 'update']); // Actualizar una pregunta
     Route::delete('{question}', [QuestionController::class, 'destroy']); // Eliminar una pregunta
+});
+Route::prefix('responses')->group(function () {
+    Route::get('/', [surveyResponseController::class, 'getResposnses']);        // Listar todas las preguntas
+    Route::get('getResponseByid/{id}', [surveyResponseController::class, 'getResponseByid']);  // Ver una pregunta específica
+    Route::post('/', [surveyResponseController::class, 'newResponse']);       // Crear una nueva pregunta
+    Route::put('responses}', [surveyResponseController::class, 'update']); // Actualizar una pregunta
+    Route::delete('responses}', [surveyResponseController::class, 'destroy']); // Eliminar una pregunta
+});
+Route::prefix('userSurveys')->group(function () {
+    Route::get('/', [SurveyUserController::class, 'getuserSurveys']);        // Listar todas las preguntas
+    Route::get('/{id}', [SurveyUserController::class, 'getSurveyUser']);  // Ver una pregunta específica
+    Route::post('/', [SurveyUserController::class, 'newuserSurvey']);       // Crear una nueva pregunta
+    Route::put('ruserSurvey}', [SurveyUserController::class, 'update']); // Actualizar una pregunta
+    Route::delete('userSurveys}', [SurveyUserController::class, 'destroy']); // Eliminar una pregunta
 });
 
 //Endpoint Admin

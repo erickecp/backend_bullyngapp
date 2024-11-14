@@ -23,6 +23,11 @@ class schoolUser extends Authenticatable implements JWTSubject
         return $this->belongsTo(school::class, 'school_id');
     }
 
+    public function surveys()
+{
+    return $this->belongsToMany(Survey::class, 'survey_users')->withTimestamps();
+}
+
     public function getJWTIdentifier()
     {
         return $this->getKey();
