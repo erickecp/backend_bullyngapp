@@ -663,5 +663,223 @@
         "url": "./assets/videos/Cap3_p3.mp4",
         "answers": ["No visto", "Visto"],
         "survey_id": 3
+    },
+
+
+
+
+    {
+        "question": "Video 4",
+        "question_2": null,
+        "category": "video",
+        "url": "./assets/videos/Cap4_p1.mp4",
+        "answers": ["No visto", "Visto"],
+        "survey_id": 4
+    },
+
+    {
+        "question": "1 ¿Podemos considerar acoso lo que hacen los Pascual y Rosa?",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Sí, siempre que pase algo así es acoso.", "Sería acoso si Rosa y Pascual, se metiesen con Julia en otros momentos, ademas de haberle quitado el estuche en esta ocasion", "No, es una tontería entre compañeros."],
+        "survey_id": 4
+    },
+    {
+        "question": "2.- ¿Qué estilo de comunicación ha usado en esta escena Julia?",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Asertivo", "Pasivo", "Agresivo"],
+        "survey_id": 4
+    },
+    {
+        "question": "3. ¿Cómo se puede sentir Julia tras esta situación? (puedes elegir varias opciones).",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendido e inseguro.", "Dominante y enfadado", " Humillado y dolido.","Satisfecho y tranquilo. ", "Contento y confiado."],
+        "survey_id": 4
+    },
+    {
+        "question": "4.¿Cómo se pueden sentir Rosa y Pascual? (puede elegir entre varias opciones)",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendidos e inseguros.", "Superiores y satisfechos.", " Divertidos y tranquilos.","Asustados y nerviosos.", "Avergonzados y preocupados."],
+        "survey_id": 4
+    },
+    {
+        "question": "5.¿Cómo se pueden sentir los compañeros que separan a Julia y Rosa? (puede elegir entre varias opciones)",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Contentos y tranquilos.", "Asustados e inseguros.","Sorprendidos y preocupados.", "Tristes y compasivos."],
+        "survey_id": 4
+    },
+
+    {
+        "question": "6.-¿Como se pueden sentir el resto de compañeros que no han intervenido en la situación?(Puedes elegir varias opciones) . ",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Tristes y compasivos.", "Contentos y tranquilos.","Asustados e inseguros ", "Sorprendidos y preocupados."],
+        "survey_id": 4
+    },
+    {
+        "question": "Ausencia de felicidad/ Nada feliz)",
+        "question_2": "Felicidad atope/extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 4
+    },
+    {
+        "question": "Ausencia de miedo/Ningún miedo",
+        "question_2": "Miedo a tope/extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 4
+    },
+    {
+        "question": "Ausencia de tristeza/nada de tristeza",
+        "question_2": "Tristeza máxima/A tope de tristeza",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 4
+    },
+    {
+        "question": "Ausencia de asco/Ningún asco",
+        "question_2": "Asco a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 4
+
+    },
+    {
+        "question": "Ausencia de enfado o rabia /Ningún enfado",
+        "question_2": "Enfado o enfado a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 4
+    },
+    {
+        "question": "Ausencia de indiferencia/nada",
+        "question_2": "Indiferencia a tope/ extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 4
+    },
+    {
+        "question": "Video 2",
+        "question_2": null,
+        "category": "video",
+        "url": "./assets/videos/Cap4_p2.mp4",
+        "answers": ["No visto", "Visto"],
+        "survey_id": 4
+    },
+    {
+        "question": "1.- ¿Podemos considerar como acoso lo que hacen Pascual y Rosa?",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Si, siempre que pase algo asi es acoso", "Seria acoso si Rosa y Pascual, se metiesen con Julia en otros momentos, ademas de haberle quitado el estuche en esta ocasión", "No, es una tonteria entre compañeros"],
+        "survey_id": 4
+    },
+    {
+        "question": "2.- ¿Qué estilo de comunicación ha usado en esta escena Julia?",
+        "question_2": "",
+        "category": "opcion",
+        "url": null,
+        "answers": ["Asertivo", "Pasivo", "Agresivo"],
+        "survey_id": 4
+    },
+
+    {
+        "question": "3.¿Cómo se pueden sentir Julia tras esta situación? (puede elegir entre varias opciones)",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendidos e inseguros.", "Dominante y enfadado", " Humillado y dolido","Satisfecho y tranquilo.", "Contento y confiado."],
+        "survey_id": 4
+    },
+    {
+        "question": "4.-¿Cómo se pueden sentir Rosa y Pascual? (puedes elegir varias opciones) . ",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Sorprendidos e inseguros.", "Superiores y satisfechos.", " Divertidos y tranquilos.","Asustados y nerviosos.", "Avergonzados y preocupados."],
+        "survey_id": 4
+    },
+    {
+        "question": "5.-¿Cómo se puede sentir Antonio?(puedes elegir varias opciones . ",
+        "question_2": "",
+        "category": "multiple",
+        "url": null,
+        "answers": ["Indiferentes y aliviados.", "Contentos y tranquilos.", "Asustados e inseguros.","Sorprendidos y preocupados.", "Tristes y compasivo."],
+        "survey_id": 4
+    },
+    {
+        "question": "Ausencia de felicidad/ Nada feliz)",
+        "question_2": "Felicidad atope/extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 4
+    },
+    {
+        "question": "Ausencia de miedo/Ningún miedo",
+        "question_2": "Miedo a tope/extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 4
+    },
+    {
+        "question": "Ausencia de tristeza/nada de tristeza",
+        "question_2": "Tristeza máxima/A tope de tristeza",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 4
+    },
+    {
+        "question": "Ausencia de asco/Ningún asco",
+        "question_2": "Asco a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 4
+
+    },
+    {
+        "question": "Ausencia de enfado o rabia /Ningún enfado",
+        "question_2": "Enfado o enfado a tope/ extremo",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 4
+    },
+    {
+        "question": "Ausencia de indiferencia/nada",
+        "question_2": "Indiferencia a tope/ extrema",
+        "category": "escala",
+        "url": null,
+        "answers": [""],
+        "survey_id": 4
+    },
+    {
+        "question": "Video 3",
+        "question_2": null,
+        "category": "video",
+        "url": "./assets/videos/Cap4_p3.mp4",
+        "answers": ["No visto", "Visto"],
+        "survey_id": 4
     }
+
 ]

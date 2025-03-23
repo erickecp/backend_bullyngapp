@@ -17,7 +17,7 @@ class SurveySeeder extends Seeder
     public function run(): void
     {
         // Crear 3 encuestas
-        survey::factory(2)->create()->each(function ($survey) {
+        survey::factory(4)->create()->each(function ($survey) {
 
             // Asociar 1 o 2 videos por encuesta
             video::factory(rand(1, 2))->create(['survey_id' => $survey->id]);
