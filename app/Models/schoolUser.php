@@ -9,7 +9,7 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
-class schoolUser extends Authenticatable implements JWTSubject
+class SchoolUser extends Authenticatable implements JWTSubject
 {
     use HasFactory;
 
@@ -20,7 +20,7 @@ class schoolUser extends Authenticatable implements JWTSubject
     ];
 
     public function school(){
-        return $this->belongsTo(school::class, 'school_id');
+        return $this->belongsTo(School::class, 'school_id');
     }
 
     public function surveys()

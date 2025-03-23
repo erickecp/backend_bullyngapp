@@ -18,6 +18,6 @@ class AdminSeeder extends Seeder
             'password'=>bcrypt('Password1'),
         ];
 
-        admin::insert($Admin);
+        Admin::insert($Admin);
     }
 }

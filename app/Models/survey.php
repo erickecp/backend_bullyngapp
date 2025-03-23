@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class survey extends Model
+class Survey extends Model
 {
     use HasFactory;
     protected $fillable = ['name', 'description'];
@@ -13,12 +13,12 @@ class survey extends Model
     public function videos()
 
     {
-        return $this->hasMany(video::class);
+        return $this->hasMany(Video::class);
     }
     public function questions()
 
     {
-        return $this->hasMany(question::class);
+        return $this->hasMany(Question::class);
     }
 
     public function users()
@@ -28,7 +28,7 @@ class survey extends Model
 
 public function surveyResponses()
 {
-    return $this->hasMany(survey_response::class);
+    return $this->hasMany(Survey_response::class);
 }
 
 

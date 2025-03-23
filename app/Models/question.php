@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class question extends Model
+class Question extends Model
 {
     use HasFactory;
     protected $fillable = ['question', 'answers','question_2','url','category'];
@@ -14,12 +14,12 @@ class question extends Model
     ];
 
     public function subsurvey(){
-        return $this->belongsTo(survey::class, );
+        return $this->belongsTo(Survey::class, );
     }
 
     public function surveyResponses()
 {
-    return $this->hasMany(survey_response::class);
+    return $this->hasMany(Survey_response::class);
 }
 
 }

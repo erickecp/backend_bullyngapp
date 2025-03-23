@@ -21,6 +21,6 @@ class SchoolSeeder extends Seeder
             'admin_id'=>1,
         ];
 
-        school::insert($School);
+        School::insert($School);
     }
 }

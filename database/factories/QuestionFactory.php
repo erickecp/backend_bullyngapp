@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class QuestionFactory extends Factory
 {
-    protected $model = question::class;
+    protected $model = Question::class;
 
     public function definition()
     {
@@ -22,7 +22,7 @@ class QuestionFactory extends Factory
             'answers' => $this->faker->randomElements([
                 'Answer 1', 'Answer 2', 'Answer 3', 'Answer 4', 'Answer 5', 'Answer 6', 'Answer 7', 'Answer 8'
             ], 3), // Tres respuestas aleatorias
-            'survey_id' => \App\Models\survey::factory(), // Asociar con una encuesta
+            'survey_id' => \App\Models\Survey::factory(), // Asociar con una encuesta
         ];
     }
 }

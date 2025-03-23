@@ -10,6 +10,6 @@ class video extends Model
     use HasFactory;
     protected $fillable = ['title', 'description', 'ruta','survey_id'];
     public function subsurvey(){
-        return $this->belongsTo(survey::class);
+        return $this->belongsTo(Survey::class);
     }
 }

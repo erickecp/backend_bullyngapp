@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\survey;
-use App\Models\survey_response;
+use App\Models\Survey_response;
 use Illuminate\Http\Request;
 
 class surveyResponseController extends Controller
@@ -12,19 +12,19 @@ class surveyResponseController extends Controller
 
 
     public function getResponses(){
-        $responses =  survey_response::all();
+        $responses =  Survey_response::all();
         return response()->json($responses);
     }
 
     public function newResponse(Request $request){
-        $response = survey_response::create($request->all());
+        $response = Survey_response::create($request->all());
         return response()->json($response);
     }
 
 
     public function getResponseByid($id) {
 
-        $survey = survey_response::with(['question', 'survey' , 'schoolUser'])
+        $survey = Survey_response::with(['question', 'survey' , 'schoolUser'])
         ->where('survey_id', $id)
         ->get();
 

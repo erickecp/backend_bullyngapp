@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Survey>
  */
 class SurveyFactory extends Factory
-{ protected $model = survey::class;
+{ protected $model = Survey::class;
 
     public function definition()
     {

@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\admin as Admin;
-use App\Models\school as School;
-use App\Models\schoolUser as User;
+use App\Models\Admin as Admin;
+use App\Models\School as School;
+use App\Models\SchoolUser as User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;

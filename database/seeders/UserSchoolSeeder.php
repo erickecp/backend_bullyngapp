@@ -29,9 +29,9 @@ class UserSchoolSeeder extends Seeder
                 'password'=>bcrypt('Password3'),
                 'school_id'=>'1',
             ],
-            
+
         ];
 
-        schoolUser::insert($SchoolUser);
+        SchoolUser::insert($SchoolUser);
     }
 }

@@ -19,7 +19,7 @@ class SubsurveyFactory extends Factory
         return [
 
             'title' => $this->faker->sentence,
-            'survey_id' => \App\Models\survey::factory(),
+            'survey_id' => \App\Models\Survey::factory(),
             //
         ];
     }

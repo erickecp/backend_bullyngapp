@@ -9,7 +9,7 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
-class school extends Authenticatable implements JWTSubject
+class School extends Authenticatable implements JWTSubject
 {
     use HasApiTokens, HasFactory, Notifiable;
 
@@ -23,7 +23,7 @@ class school extends Authenticatable implements JWTSubject
     ];
 
     public function admin(){
-        return $this->belongsTo(admin::class, 'admin_id');
+        return $this->belongsTo(Admin::class, 'admin_id');
     }
 
     public function getJWTIdentifier()
