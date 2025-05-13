@@ -2,10 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\question;
-use App\Models\subsurvey;
-use App\Models\survey;
-use App\Models\video;
+use App\Models\Question;
+use App\Models\Subsurvey;
+use App\Models\Survey;
+use App\Models\Video;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 

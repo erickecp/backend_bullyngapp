@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Survey_response extends Model
+class SurveyResponse extends Model
 {
     protected $fillable = ['school_users_id', 'question_id','response', 'survey_id'];
     use HasFactory;

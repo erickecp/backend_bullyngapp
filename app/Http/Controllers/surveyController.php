@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\survey;
+use App\Models\Survey;
 use Illuminate\Http\Request;
 
 class surveyController extends Controller

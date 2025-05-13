@@ -19,7 +19,7 @@ class Question extends Model
 
     public function surveyResponses()
 {
-    return $this->hasMany(Survey_response::class);
+    return $this->hasMany(SurveyResponse::class);
 }
 
 }

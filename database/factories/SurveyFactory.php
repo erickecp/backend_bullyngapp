@@ -13,10 +13,18 @@ class SurveyFactory extends Factory
 
     public function definition()
     {
+	static $titles = [
+		'Encuesta 1',
+		'Encuesta 2',
+		'Encuesta 3',
+		'Encuesta 4'
+	];
+
+		static $index = 0;
         return [
-            'title' => $this->faker->sentence,
-            'description' => $this->faker->paragraph,
-            'isActive' => $this->faker->boolean(80), // 80% de que sea activo
+            'title' => $titles[$index++ % count($titles)],
+            'description' => 'Descripcion estatica para encuesta ' . $titles[$index % count($titles)],
+            'isActive' => true,
         ];
     }
 }

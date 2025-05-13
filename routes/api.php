@@ -5,7 +5,7 @@ use App\Http\Controllers\surveyController;
 use App\Http\Controllers\videoController;
 use App\Http\Controllers\subsurveyController;
 use App\Http\Controllers\AuthController;
-use App\Http\Controllers\surveyResponseController;
+use App\Http\Controllers\SurveyResponseController;
 use App\Http\Controllers\SurveyUserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -42,11 +42,11 @@ Route::prefix('questions')->group(function () {
     Route::delete('{question}', [QuestionController::class, 'destroy']); // Eliminar una pregunta
 });
 Route::prefix('responses')->group(function () {
-    Route::get('/', [surveyResponseController::class, 'getResposnses']);        // Listar todas las preguntas
-    Route::get('getResponseByid/{id}', [surveyResponseController::class, 'getResponseByid']);  // Ver una pregunta específica
-    Route::post('/', [surveyResponseController::class, 'newResponse']);       // Crear una nueva pregunta
-    Route::put('responses}', [surveyResponseController::class, 'update']); // Actualizar una pregunta
-    Route::delete('responses}', [surveyResponseController::class, 'destroy']); // Eliminar una pregunta
+    Route::get('/', [SurveyResponseController::class, 'getResposnses']);        // Listar todas las preguntas
+    Route::get('getResponseByid/{id}', [SurveyResponseController::class, 'getResponseByid']);  // Ver una pregunta específica
+    Route::post('/', [SurveyResponseController::class, 'newResponse']);       // Crear una nueva pregunta
+    Route::put('responses', [SurveyResponseController::class, 'update']); // Actualizar una pregunta
+    Route::delete('responses', [SurveyResponseController::class, 'destroy']); // Eliminar una pregunta
 });
 Route::prefix('userSurveys')->group(function () {
     Route::get('/', [SurveyUserController::class, 'getuserSurveys']);        // Listar todas las preguntas
